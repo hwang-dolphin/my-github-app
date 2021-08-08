@@ -1,0 +1,24 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root{
+	--lightRed: hsl(15, 100%, 70%);
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	height: 100vh;
+	font-size: 16px;
+	color: orange;
+	background-color: var(--lightRed);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
