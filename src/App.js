@@ -27,8 +27,8 @@ function App()
 
   return (
     <div className="App">
-		<p>Hello World</p>
-		<p>Hello World</p>
+		<p>Hello World 1</p>
+		<p>Hello World 2</p>
 		<p>You clicked {count} times</p>
 
 		<XYPlot height={300} width={300}>
