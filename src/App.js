@@ -28,7 +28,7 @@ function App()
   return (
     <div className="App">
 		<p>Hello World</p>
-
+		<p>Hello World</p>
 		<p>You clicked {count} times</p>
 
 		<XYPlot height={300} width={300}>
@@ -42,7 +42,8 @@ function App()
 		<button onClick={() => setCount(count + 1)}>
 		Click
 		</button>
-    </div>
+
+	</div>
   );
  // }
 }
