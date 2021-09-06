@@ -18,7 +18,9 @@ body{
 	color: blue;
 	background-color: var(--lightRed);
 
+	/*
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	*/
 }
