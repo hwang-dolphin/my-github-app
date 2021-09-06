@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,EACC,iBAAkB,CAClB,gBACD,CAGA,QAEC,WAAY,CACZ,WAAY,CAEZ,uBACD","file":"main.3c600e4e.chunk.css","sourcesContent":["p{\n\ttext-align: center;\t\n\tfont-size: 1.33em;\n}\n\n\n.footer\n{\n\theight: 10vh;\n\twidth: 100vw;\n\n\tbackground-color: orange;\n}\n"]}
