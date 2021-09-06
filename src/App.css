@@ -2,3 +2,25 @@ p{
 	text-align: center;	
 	font-size: 1.33em;
 }
+
+
+.App
+{
+	height: 80vh;
+	width: 100vw;
+	
+	background-color: pink;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.footer
+{
+	height: 20vh;
+	width: 100vw;
+
+	background-color: orange;
+}

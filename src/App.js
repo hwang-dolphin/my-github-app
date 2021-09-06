@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
 import '../node_modules/react-vis/dist/style.css';
+
+import Footer from "./components/footer.js";
+
 import {XYPlot, LineSeries,VerticalGridLines,HorizontalGridLines,XAxis,YAxis} from 'react-vis';
 
 
@@ -26,7 +29,8 @@ function App()
 
 
   return (
-    <div className="App">
+	<>
+    <nav className="App">
 		<p>Hello World 1</p>
 		<p>Hello World 2</p>
 		<p>You clicked {count} times</p>
@@ -42,8 +46,10 @@ function App()
 		<button onClick={() => setCount(count + 1)}>
 		Click
 		</button>
+	</nav>
 
-	</div>
+	<Footer />
+	</>
   );
  // }
 }
