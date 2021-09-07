@@ -17,15 +17,4 @@ body{
 	font-size: 16px;
 	color: blue;
 	background-color: var(--lightRed);
-
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
-
-	grid-template-areas: "head head head"
-						 "navi navi navi"
-						 "lMai main main"
-						 "foot foot foot";
-
-	grid-gap: 10px;
 }
