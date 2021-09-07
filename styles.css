@@ -6,6 +6,7 @@
 
 :root{
 	--lightRed: hsl(15, 100%, 70%);
+	--pink: hsl(350, 100%, 88%);
 }
 
 html{
@@ -15,6 +16,6 @@ html{
 body{
 	height: 100vh;
 	font-size: 16px;
-	color: blue;
-	background-color: var(--lightRed);
+	color: purple;
+	background-color: var(--pink); 
 }
